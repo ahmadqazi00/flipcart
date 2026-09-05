@@ -70,7 +70,8 @@
             </div>
             
             <div class="social-signup">
-                <a href="/auth/google" class="social-button google">
+                {{-- /auth/google --}}
+                <a href="" class="social-button google">
                     <span class="social-icon"></span>
                     <span>Google</span>
                 </a>

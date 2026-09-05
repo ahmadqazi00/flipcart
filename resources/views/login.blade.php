@@ -2,18 +2,13 @@
     <x-flash/>
     <div class="signup-container">
         <div class="signup-header">
-            <h1>A Q. Brand</h1>
+            <h1>Amethyst</h1>
             <p class="subtitle">Sign In Your Account</p>
         </div>
         
-        <form class="signup-form" method="POST" action="/signup">
+        <form class="signup-form" method="POST" action="/signin">
             @csrf
             
-            @error('name')
-            <p class="text-red-700 font-semibold">
-                {{ $message }}
-            </p>
-            @enderror
             
             <div class="form-group">
                 <label for="email">Enter Your Email Address</label>

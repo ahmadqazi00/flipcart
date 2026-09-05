@@ -85,6 +85,7 @@
         </li>
         
         <!-- Orders -->
+        <a href="/proceed">
         <li class="sidebar-item d-flex gap-3 p-4 items-center">
             <div class="icon-wrapper bg-purple-900/30">
                 <i class="bi bi-cart-check text-purple-400"></i>
@@ -92,6 +93,7 @@
             <h4 class="font-medium">Orders</h4>
             <div class="notification-badge">5</div>
         </li>
+        </a>
         
         <!-- Customers -->
         <li class="sidebar-item d-flex gap-3 p-4 items-center">
